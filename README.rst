@@ -6,25 +6,6 @@ Full Automated Nagios
 
 Python script to install/configure Nagios server and Nrpe agents to all client servers.
 
-============
-Installation
-============
-
-
-So you can easily download it:
-
-.. code-block:: bash
-
-    # git clone https://github.com/jamalshahverdiev/full-automated-nagios.git
-    # cd full-automated-nagios
-
-Firstly we must install and configure Python2.7 or Python3.4 with needed libraries:
-
-.. code-block:: bash
-    
-    # ./python-installer.sh
-
-
 Program components are the following:
 
 * clients.txt - This file must contain IP adress list of NRPE agents.
@@ -52,13 +33,13 @@ In a terminal:
     # chsh -s /usr/local/bin/bash root ; reboot
 
 
+Now we can prepare a Linux desktop, install the git package on it and copy all necessary scripts from the repository.
+
 .. code-block:: bash
 
-    $ pyspeedtest
-    Using server: speedtest.serv.pt
-    Ping: 9 ms
-    Download speed: 148.17 Mbps
-    Upload speed: 18.56 Mbps
+    # git clone https://github.com/jamalshahverdiev/full-automated-nagios.git 
+
+
 
 From a python script:
 
