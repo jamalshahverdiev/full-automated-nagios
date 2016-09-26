@@ -24,10 +24,10 @@ Firstly we must install and configure Python2.7 or Python3.4 with needed librari
 
 Program components are the following:
 
-    clients.txt - This file must contain IP adress list of NRPE agents.
-    nagios-clients.py - Program will install and configure NRPE agents.
-    nagios-server.py - Program will install and configure Nagios server.
-    run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.
+    <html>clients.txt - This file must contain IP adress list of NRPE agents.<br>
+    nagios-clients.py - Program will install and configure NRPE agents.<br>
+    nagios-server.py - Program will install and configure Nagios server.<br>
+    run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.</html>
 
 
 
