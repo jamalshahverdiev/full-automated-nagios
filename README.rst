@@ -2,26 +2,45 @@
 Full Automated Nagios
 *********************
 
-.. image:: https://img.shields.io/pypi/pyversions/pyspeedtest.svg
+.. image:: https://img.shields.io/pypi/pyversions/Django.svg
 
-Python script to test network bandwidth using Speedtest.net servers
+Python script to install/configure Nagios server and Nrpe agents to all client servers.
 
 ============
 Installation
 ============
 
 
-This package is available from PyPI so you can easily install it with:
-
+So you can easily download it:
 .. code-block:: bash
 
-    sudo pip install pyspeedtest
+    # git clone https://github.com/jamalshahverdiev/full-automated-nagios.git
+    # cd full-automated-nagios
 
-Or only for your user
+Firstly we must install and configure Python2.7 or Python3.4 with needed libraries:
 
 .. code-block:: bash
+    # ./python-installer.sh
 
-    $ pip install --user pyspeedtest
+Program components are the following:
+.. code-block:: bash
+    fpyvenv fully-automated-nagios # ll
+    -rw-r--r--  1 root  wheel    14B Sep 25 14:41 clients.txt
+    drwxr-xr-x  2 root  wheel   512B Sep 24 21:48 jinja2temps
+    -rwxr-xr-x  1 root  wheel   5.7K Sep 25 09:28 nagios-clients.py
+    -rwxr-xr-x  1 root  wheel   3.9K Sep 25 01:15 nagios-server.py
+    drwxr-xr-x  2 root  wheel   512B Sep 24 21:46 ngclout
+    drwxr-xr-x  2 root  wheel   512B Sep 24 21:09 output
+    -rwxr-xr-x  1 root  wheel   2.9K Sep 25 09:30 python-installer.sh
+    -rwxr-xr-x  1 root  wheel   1.7K Sep 25 09:27 run.py
+    -rwxr-xr-x  1 root  wheel   1.7K Sep 25 09:27 README.rst
+
+clients.txt - This file must contain IP adress list of NRPE agents.
+nagios-clients.py - Program will install and configure NRPE agents.
+nagios-server.py - Program will install and configure Nagios server.
+run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.
+
+
 
 =====
 Usage
