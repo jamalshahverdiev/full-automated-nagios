@@ -1,9 +1,8 @@
-*******************
-fullautomatednagios
-*******************
+*********************
+Full Automated Nagios
+*********************
 
 .. image:: https://img.shields.io/pypi/pyversions/pyspeedtest.svg
-    :target: https://pypi.python.org/pypi/pyspeedtest
 
 Python script to test network bandwidth using Speedtest.net servers
 
