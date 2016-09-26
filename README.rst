@@ -23,21 +23,11 @@ Firstly we must install and configure Python2.7 or Python3.4 with needed librari
     # ./python-installer.sh
 
 Program components are the following:
-.. code-block:: bash
-    # ll | egrep '*.txt|*.py'
-.. code-block:: bash
-    -rw-r--r--  1 root  wheel    56B Sep 25 19:18 clients.txt
-.. code-block:: bash
-    -rwxr-xr-x  1 root  wheel   5.7K Sep 25 09:28 nagios-clients.py
-.. code-block:: bash
-    -rwxr-xr-x  1 root  wheel   3.9K Sep 25 01:15 nagios-server.py
-.. code-block:: bash
-    -rwxr-xr-x  1 root  wheel   1.7K Sep 26 10:51 run.py
 
-clients.txt - This file must contain IP adress list of NRPE agents.
-nagios-clients.py - Program will install and configure NRPE agents.
-nagios-server.py - Program will install and configure Nagios server.
-run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.
+    clients.txt - This file must contain IP adress list of NRPE agents.
+    nagios-clients.py - Program will install and configure NRPE agents.
+    nagios-server.py - Program will install and configure Nagios server.
+    run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.
 
 
 
