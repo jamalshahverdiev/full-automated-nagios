@@ -13,8 +13,8 @@ Installation
 
 So you can easily download it:
 .. code-block:: bash
-
     # git clone https://github.com/jamalshahverdiev/full-automated-nagios.git
+.. code-block:: bash
     # cd full-automated-nagios
 
 Firstly we must install and configure Python2.7 or Python3.4 with needed libraries:
@@ -24,16 +24,15 @@ Firstly we must install and configure Python2.7 or Python3.4 with needed librari
 
 Program components are the following:
 .. code-block:: bash
-    fpyvenv fully-automated-nagios # ll
-    -rw-r--r--  1 root  wheel    14B Sep 25 14:41 clients.txt
-    drwxr-xr-x  2 root  wheel   512B Sep 24 21:48 jinja2temps
+    # ll | egrep '*.txt|*.py'
+.. code-block:: bash
+    -rw-r--r--  1 root  wheel    56B Sep 25 19:18 clients.txt
+.. code-block:: bash
     -rwxr-xr-x  1 root  wheel   5.7K Sep 25 09:28 nagios-clients.py
+.. code-block:: bash
     -rwxr-xr-x  1 root  wheel   3.9K Sep 25 01:15 nagios-server.py
-    drwxr-xr-x  2 root  wheel   512B Sep 24 21:46 ngclout
-    drwxr-xr-x  2 root  wheel   512B Sep 24 21:09 output
-    -rwxr-xr-x  1 root  wheel   2.9K Sep 25 09:30 python-installer.sh
-    -rwxr-xr-x  1 root  wheel   1.7K Sep 25 09:27 run.py
-    -rwxr-xr-x  1 root  wheel   1.7K Sep 25 09:27 README.rst
+.. code-block:: bash
+    -rwxr-xr-x  1 root  wheel   1.7K Sep 26 10:51 run.py
 
 clients.txt - This file must contain IP adress list of NRPE agents.
 nagios-clients.py - Program will install and configure NRPE agents.
