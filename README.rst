@@ -12,9 +12,10 @@ Installation
 
 
 So you can easily download it:
+
 .. code-block:: bash
+
     # git clone https://github.com/jamalshahverdiev/full-automated-nagios.git
-.. code-block:: bash
     # cd full-automated-nagios
 
 Firstly we must install and configure Python2.7 or Python3.4 with needed libraries:
@@ -24,7 +25,7 @@ Firstly we must install and configure Python2.7 or Python3.4 with needed librari
 
 Program components are the following:
 
-    <html>clients.txt - This file must contain IP adress list of NRPE agents.<br>
+    clients.txt - This file must contain IP adress list of NRPE agents.<br>
     nagios-clients.py - Program will install and configure NRPE agents.<br>
     nagios-server.py - Program will install and configure Nagios server.<br>
     run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.</html>
