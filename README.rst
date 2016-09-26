@@ -1,18 +1,9 @@
-***********
-pyspeedtest
-***********
-
-.. image:: https://travis-ci.org/fopina/pyspeedtest.svg?branch=master
-    :target: https://travis-ci.org/fopina/pyspeedtest
-    :alt: Build Status
-
-.. image:: https://img.shields.io/pypi/v/pyspeedtest.svg
-    :target: https://pypi.python.org/pypi/pyspeedtest
-    :alt: PyPI Version
+*******************
+fullautomatednagios
+*******************
 
 .. image:: https://img.shields.io/pypi/pyversions/pyspeedtest.svg
     :target: https://pypi.python.org/pypi/pyspeedtest
-    :alt: PyPI Python Versions
 
 Python script to test network bandwidth using Speedtest.net servers
 
