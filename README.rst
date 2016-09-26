@@ -62,5 +62,3 @@ Please, execute the following  to start the installation:
     3.   To exit type 3 and press 'Enter'.
 
     Please choose the installation option: 1
-
-
