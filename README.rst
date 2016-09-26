@@ -8,10 +8,10 @@ Python script to install/configure Nagios server and Nrpe agents to all client s
 
 Program components are the following:
 
-* clients.txt - This file must contain IP adress list of NRPE agents.
-* nagios-clients.py - Program will install and configure NRPE agents.
-* nagios-server.py - Program will install and configure Nagios server.
-* run.py - Program give us menu to select install/configure Nagios or NRPE sevrer.
+* clients.txt - List of IP addresses for all Nagios clients.
+* nagios-clients.py - Automatic installation of Nagios Server.
+* nagios-server.py - Automatic installation of Nagios Clients.
+* run.py - Installation lunch script with an interactive menu.
 
 
 
