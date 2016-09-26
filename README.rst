@@ -21,7 +21,9 @@ So you can easily download it:
 Firstly we must install and configure Python2.7 or Python3.4 with needed libraries:
 
 .. code-block:: bash
+    
     # ./python-installer.sh
+
 
 Program components are the following:
 
@@ -36,25 +38,19 @@ Program components are the following:
 Usage
 =====
 
+The purpose of this article is to show how to automatically install the Nagios server and the NRPE clients using the prearranged python scripts. First of all, you must activate root access on all hosts (server and clients).
+
+After you have activated the root access and performed the system update on all machines, you must perform one additional step on FreeBSD. Install bash and copy the shell executable from /usr/local/bin/bash to /bin/bash.
+
+
 In a terminal:
 
 .. code-block:: bash
+    
+    # pkg install -y bash vim
+    # cp /usr/local/bin/bash /bin/bash 
+    # chsh -s /usr/local/bin/bash root ; reboot
 
-    $ pyspeedtest -h
-    usage: pyspeedtest [OPTION]...
-
-    Test your bandwidth speed using Speedtest.net servers.
-
-    optional arguments:
-      -d L, --debug L   set http connection debug level (default is 0)
-      -m M, --mode M    test mode: 1 - download
-                                   2 - upload
-                                   4 - ping
-                                   1 + 2 + 4 = 7 - all (default)
-      -r N, --runs N    use N runs (default is 2)
-      -s H, --server H  use specific server
-      -v, --verbose     output additional information
-      --version         show program's version number and exit
 
 .. code-block:: bash
 
