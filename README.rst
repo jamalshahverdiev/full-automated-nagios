@@ -38,18 +38,29 @@ Now we can prepare a Linux desktop, install the git package on it and copy all n
 .. code-block:: bash
 
     # git clone https://github.com/jamalshahverdiev/full-automated-nagios.git 
+    
+Execute the python-installer.sh to automatically install python2.7, python3.4, and all necessary libraries.
+
+.. code-block:: bash
+    # cd full-automated-nagios
+    # ./python-installer.sh
 
 
+Please, execute the following  to start the installation:
+.. code-block:: bash
 
-From a python script:
+    # ./run.py
+    The Program is going to install and configure the Nagios server automatically.
+    It is supposed that you have already added all IP addresses of client hosts to the 'clients.txt' file.
+    Users must be 'root' with the same passwords on all hosts ...
 
-.. code-block:: python
+    =====================================================================================
 
-    >>> import pyspeedtest
-    >>> st = pyspeedtest.SpeedTest()
-    >>> st.ping()
-    9.306252002716064
-    >>> st.download()
-    42762976.92544772
-    >>> st.upload()
-    19425388.307319913
+    Choose one of following options:
+    1.   To install and configure Nagios server, type 1 and press 'Enter'.
+    2.   To install and configure 'Nrpe' agents on all client hosts, type 2 and press 'Enter'.
+    3.   To exit type 3 and press 'Enter'.
+
+    Please choose the installation option: 1
+
+
