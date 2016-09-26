@@ -42,11 +42,13 @@ Now we can prepare a Linux desktop, install the git package on it and copy all n
 Execute the python-installer.sh to automatically install python2.7, python3.4, and all necessary libraries.
 
 .. code-block:: bash
+
     # cd full-automated-nagios
     # ./python-installer.sh
 
 
 Please, execute the following  to start the installation:
+
 .. code-block:: bash
 
     # ./run.py
@@ -57,8 +59,8 @@ Please, execute the following  to start the installation:
     =====================================================================================
 
     Choose one of following options:
-    1.   To install and configure Nagios server, type 1 and press 'Enter'.
-    2.   To install and configure 'Nrpe' agents on all client hosts, type 2 and press 'Enter'.
-    3.   To exit type 3 and press 'Enter'.
+    1. To install and configure Nagios server, type 1 and press 'Enter'.
+    2. To install and configure 'Nrpe' agents on all client hosts, type 2 and press 'Enter'.
+    3. To exit type 3 and press 'Enter'.
 
     Please choose the installation option: 1
